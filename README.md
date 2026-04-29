@@ -59,10 +59,38 @@ https://web.archive.org/
 ###output
 <img width="925" height="1030" alt="1" src="https://github.com/user-attachments/assets/c11f391d-bf18-43ae-9c72-5832c7ebd991" />
 
+Purpose: Scans a target system to find open ports, running services, and network details.
+
+Example command
+
+nmap www.google.com
+
+Sample Output
+
+Starting Nmap
+Nmap scan report for www.google.com
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+
 
 ## Whatweb
 ### output
 <img width="925" height="1030" alt="2" src="https://github.com/user-attachments/assets/cb20eea5-9255-414e-9351-6cf5af04f9d1" />
+
+ Purpose: Identifies technologies used by a website (server type, CMS, frameworks, etc.).
+
+Example command
+
+whatweb www.google.com
+
+Sample Output
+
+http://www.google.com [200 OK]
+Country[UNITED STATES]
+IP[142.250.183.196]
+HTML5
+HTTPServer[gws]
 
 
 # Tracing the Location
@@ -71,13 +99,36 @@ sudo traceroute -T www.google.com
 ## output
 <img width="925" height="1030" alt="3" src="https://github.com/user-attachments/assets/f78d7e2a-15ad-43ee-9088-7a697a1b11f5" />
 
+Command
 
+sudo traceroute -T www.google.com
+
+Purpose: Tracks route packets take using TCP protocol (useful when ICMP is blocked).
+
+Sample Output
+
+1  192.168.1.1
+2  10.0.0.1
+3  172.217.160.78
+
+Result:
+Shows path traveled by TCP packets from your system to destination server
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
 ## output
 <img width="925" height="1030" alt="4" src="https://github.com/user-attachments/assets/f31bdf2b-5510-45be-ac44-7993b2df15db" />
 
+Command
 
+sudo traceroute -U www.google.com
+
+Purpose: Tracks route using UDP packets.
+
+Sample Output
+
+1  192.168.1.1
+2  10.0.0.1
+3  142.250.183.196
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
@@ -85,7 +136,15 @@ sudo traceroute  www.google.com
 
 <img width="925" height="1030" alt="5" src="https://github.com/user-attachments/assets/719a3bd5-d0e4-4a04-bd04-1c091f90c138" />
 
+sudo traceroute www.google.com
 
+Purpose: Default traceroute method using ICMP echo packets.
+
+Sample Output
+
+1  192.168.1.1
+2  10.0.0.1
+3  142.250.183.196
 
 
 
