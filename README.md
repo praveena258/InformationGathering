@@ -34,6 +34,7 @@ http://www.whois.com/whois website to get detailed information about a domain na
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
 ##output
+<img width="925" height="1030" alt="6" src="https://github.com/user-attachments/assets/327727aa-f949-4ccd-a7e9-a9d9686c7d69" />
 
 
 
@@ -54,13 +55,6 @@ https://web.archive.org/
 
 # Webserver Fingerprinting:
 
-## Netcat:
-sudo nc example.com 80
-GET / HTTP/1.1
-Host: example.com
-
-
-
 ## nmap:
 ###output
 <img width="925" height="1030" alt="1" src="https://github.com/user-attachments/assets/c11f391d-bf18-43ae-9c72-5832c7ebd991" />
@@ -69,12 +63,6 @@ Host: example.com
 ## Whatweb
 ### output
 <img width="925" height="1030" alt="2" src="https://github.com/user-attachments/assets/cb20eea5-9255-414e-9351-6cf5af04f9d1" />
-
-
-## httprint
-### output
-
-
 
 
 # Tracing the Location
