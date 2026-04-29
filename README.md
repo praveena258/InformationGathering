@@ -63,10 +63,12 @@ Host: example.com
 
 ## nmap:
 ###output
+<img width="925" height="1030" alt="1" src="https://github.com/user-attachments/assets/c11f391d-bf18-43ae-9c72-5832c7ebd991" />
 
 
 ## Whatweb
 ### output
+<img width="925" height="1030" alt="2" src="https://github.com/user-attachments/assets/cb20eea5-9255-414e-9351-6cf5af04f9d1" />
 
 
 ## httprint
@@ -79,11 +81,13 @@ Host: example.com
 TCP Traceroute:
 sudo traceroute -T www.google.com
 ## output
+<img width="925" height="1030" alt="3" src="https://github.com/user-attachments/assets/f78d7e2a-15ad-43ee-9088-7a697a1b11f5" />
 
 
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
 ## output
+<img width="925" height="1030" alt="4" src="https://github.com/user-attachments/assets/f31bdf2b-5510-45be-ac44-7993b2df15db" />
 
 
 
@@ -91,6 +95,7 @@ sudo traceroute -U www.google.com
 sudo traceroute  www.google.com
 ## output
 
+<img width="925" height="1030" alt="5" src="https://github.com/user-attachments/assets/719a3bd5-d0e4-4a04-bd04-1c091f90c138" />
 
 
 
